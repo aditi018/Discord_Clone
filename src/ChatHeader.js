@@ -7,11 +7,11 @@ import SearchIcon from '@mui/icons-material/Search';
 import SendIcon from '@mui/icons-material/Send';
 import HelpIcon from '@mui/icons-material/Help';
 
-function ChatHeader() {
+function ChatHeader({channelName}) {
   return (
     <div className='chat__header'>
         <div className='chatHeader__left'>
-            <h3><span className='chatHeader__hash'>#</span>Test Channel Name</h3>
+            <h3><span className='chatHeader__hash'>#</span>{channelName}</h3>
         </div>
         <div className='chatHeader__right'>
             <NotificationsIcon />

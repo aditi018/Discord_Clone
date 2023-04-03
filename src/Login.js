@@ -15,7 +15,7 @@ function Login() {
       <div className='login__logo'>
         <img src='https://1000logos.net/wp-content/uploads/2020/10/Discord-logo.png' alt =""/>
       </div>
-      <Button onClick={signIn}>Sign In</Button>
+      <Button onClick={signIn}>Sign In</Button> 
     </div>
   )
 }
